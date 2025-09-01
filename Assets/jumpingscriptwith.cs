@@ -13,6 +13,7 @@ public class jumpingscriptwith : MonoBehaviour
     private bool isCharging = false;
     private bool isGrounded = false;
     private bool canCharge = true;
+    private bool movement;
 
     void Start()
     {
@@ -31,6 +32,9 @@ public class jumpingscriptwith : MonoBehaviour
 
     void HandleHorizontalInput()
     {
+        if (!isGrounded)
+            return;
+
         float move = 0f;
 
         if (Input.GetKey(KeyCode.A))
@@ -42,6 +46,7 @@ public class jumpingscriptwith : MonoBehaviour
         velocity.x = move * horizontalMoveSpeed;
         rb.linearVelocity = velocity;
     }
+
 
     void HandleJumpCharging()
     {
