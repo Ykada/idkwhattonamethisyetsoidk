@@ -1,98 +1,64 @@
 using UnityEngine;
-using static Unity.VisualScripting.Member;
 
-public class jumpingscriptwith : MonoBehaviour
+public class JumpKingController : MonoBehaviour
 {
+    [SerializeField] private float moveSpeed = 2f;
+    [SerializeField] private float minJumpForce = 5f;
+    [SerializeField] private float maxJumpForce = 15f;
+    [SerializeField] private float chargeSpeed = 5f;
+    [SerializeField] private float jumpHeight = 10f;
+    [SerializeField] private float jumpDelay = 0.2f;
 
-    public float maxChargeTime = 2f;
-    public float maxJumpForce = 15f;
-    public float jumpCooldown = 0.1f;
-    public float horizontalMoveSpeed = 5f;
     private Rigidbody2D rb;
-    private float chargeTimer = 0f;
-    private bool isCharging = false;
-    private bool isGrounded = false;
-    private bool canCharge = true;
-    private bool movement;
+    private SpriteRenderer sr;
+    private float jumpCharge;
+    private int lastMoveDirection = 1;
+    private bool isGrounded;
+    private float lastJumpTime;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        HandleHorizontalInput();
-
-        if (isGrounded && canCharge)
-        {
-            HandleJumpCharging();
-        }
-    }
-
-    void HandleHorizontalInput()
-    {
-        if (!isGrounded)
-            return;
-
-        float move = 0f;
-
         if (Input.GetKey(KeyCode.A))
-            move = -1f;
-        else if (Input.GetKey(KeyCode.D))
-            move = 1f;
-
-        Vector2 velocity = rb.linearVelocity;
-        velocity.x = move * horizontalMoveSpeed;
-        rb.linearVelocity = velocity;
-    }
-
-
-    void HandleJumpCharging()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
         {
-            isCharging = true;
-            chargeTimer = 0f;
+            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+            lastMoveDirection = -1;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
+            lastMoveDirection = 1;
         }
 
-        if (Input.GetKey(KeyCode.Space) && isCharging)
+        if (isGrounded && Input.GetKey(KeyCode.Space))
         {
-            chargeTimer += Time.deltaTime;
-            chargeTimer = Mathf.Clamp(chargeTimer, 0, maxChargeTime);
+            jumpCharge += chargeSpeed * Time.deltaTime;
+            jumpCharge = Mathf.Clamp(jumpCharge, minJumpForce, maxJumpForce);
+
+            float t = (jumpCharge - minJumpForce) / (maxJumpForce - minJumpForce);
+            sr.color = new Color(1f, 1f - t, 1f - t);
         }
 
-        if (Input.GetKeyUp(KeyCode.Space) && isCharging)
+        if (isGrounded && Input.GetKeyUp(KeyCode.Space) && Time.time > lastJumpTime + jumpDelay)
         {
-            float chargePercent = chargeTimer / maxChargeTime;
-            float jumpForce = chargePercent * maxJumpForce;
+            rb.linearVelocity = Vector2.zero;
+            Vector2 jumpVector = new Vector2(lastMoveDirection * jumpCharge, jumpHeight);
+            rb.AddForce(jumpVector, ForceMode2D.Impulse);
 
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-
-            isCharging = false;
-            canCharge = false;
-            Invoke(nameof(ResetCharge), jumpCooldown);
+            jumpCharge = 0;
+            sr.color = Color.white;
+            isGrounded = false;
+            lastJumpTime = Time.time;
         }
     }
 
-    void ResetCharge()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        canCharge = true;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.contacts.Length > 0)
-        {
-            if (collision.contacts[0].normal.y > 0.5f)
-            {
-                isGrounded = true;
-            }
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        isGrounded = false;
+        isGrounded = true;
     }
 }
