@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: c8e56150f2d0d624ba749cb3ec31185e
+guid: cc1bcefdcbf04e2479db48ab151b7de7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9102636616523676645
-    second: slope platform 1_0
-  - first:
-      213: -6412947484205150595
-    second: slope platform 1_1
+      213: -8168142739186187610
+    second: gate-animatie_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slope platform 1_0
+      name: gate-animatie_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 10
-        width: 422
-        height: 244
+        x: 26
+        y: 40
+        width: 249
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1484a0a930fca180800000000000000
-      internalID: -9102636616523676645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slope platform 1_1
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 0
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d7e87b88d32a007a0800000000000000
-      internalID: -6412947484205150595
+      spriteID: 6a20f14947de4ae80800000000000000
+      internalID: -8168142739186187610
       vertices: []
       indices: 
       edges: []
@@ -172,9 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      slope platform 1_0: -9102636616523676645
-      slope platform 1_1: -6412947484205150595
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
