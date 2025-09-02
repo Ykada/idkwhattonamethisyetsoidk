@@ -83,7 +83,11 @@ ScriptedImporter:
       y: 0
       width: 0
       height: 0
+<<<<<<< HEAD
     spriteID: 4de38c6d03e8a5649a8b6c149a5204b5
+=======
+    spriteID: d75d344fd1035744eb1452679f6170d5
+>>>>>>> c48b48135647697ade21ca856540361909afb066
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -107,6 +111,7 @@ ScriptedImporter:
       y: 4
       width: 1150
       height: 511
+<<<<<<< HEAD
     spriteID: 5456bbd5c48050540a3d5021f0a57b91
     spriteBone: []
     spriteOutline: []
@@ -469,6 +474,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
     spritePosition: {x: 390, y: 259}
+=======
+    spriteID: 2f30616880c9daf44a3b06bbf92163cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 385, y: 256}
+>>>>>>> c48b48135647697ade21ca856540361909afb066
   - name: Laag 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -477,6 +494,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
+<<<<<<< HEAD
       x: 1152
       y: 4
       width: 212
@@ -840,6 +858,21 @@ ScriptedImporter:
     - {x: 29, y: 30}
     tessellationDetail: 0
     uvTransform: {x: 1152, y: 4}
+=======
+      x: 1162
+      y: 4
+      width: 212
+      height: 941
+    spriteID: 2772f3809e050cb4eb992d358f0c3728
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1162, y: 4}
+>>>>>>> c48b48135647697ade21ca856540361909afb066
     spritePosition: {x: 877, y: 478}
   spriteImportData: []
   rigSpriteImportData: []
@@ -853,6 +886,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     boneReadOnly: 0
   characterData:
+<<<<<<< HEAD
     bones:
     - name: bone_1
       guid: 27bc357b78d2d5b49a38a0bfe094e23b
@@ -885,11 +919,22 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
     pivot: {x: 0.5, y: 0}
+=======
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+>>>>>>> c48b48135647697ade21ca856540361909afb066
     boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
   characterMode: 1
+<<<<<<< HEAD
   documentPivot: {x: 0.5, y: 0}
+=======
+  documentPivot: {x: 0, y: 0}
+>>>>>>> c48b48135647697ade21ca856540361909afb066
   documentAlignment: 7
   importHiddenLayers: 0
   layerMappingOption: 2
@@ -911,7 +956,11 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
+<<<<<<< HEAD
     spriteID: 674fab71f7fa5ef48b6925de291e6946
+=======
+    spriteID: 4c5c9de461c744842b01a223f2fe6039
+>>>>>>> c48b48135647697ade21ca856540361909afb066
     layerID: 3
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -921,7 +970,11 @@ ScriptedImporter:
     spriteName: Helderheid/contrast 1
     isGroup: 0
     parentIndex: 0
+<<<<<<< HEAD
     spriteID: 5456bbd5c48050540a3d5021f0a57b91
+=======
+    spriteID: 2f30616880c9daf44a3b06bbf92163cf
+>>>>>>> c48b48135647697ade21ca856540361909afb066
     layerID: 17
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
@@ -931,9 +984,15 @@ ScriptedImporter:
     spriteName: Laag 3
     isGroup: 0
     parentIndex: 0
+<<<<<<< HEAD
     spriteID: 7dac7a01c0506c140911e437718b54d9
     layerID: 13
     mosaicPosition: {x: 1152, y: 4}
+=======
+    spriteID: 2772f3809e050cb4eb992d358f0c3728
+    layerID: 13
+    mosaicPosition: {x: 1162, y: 4}
+>>>>>>> c48b48135647697ade21ca856540361909afb066
     flatten: 0
     isImported: 1
     isVisible: 1
