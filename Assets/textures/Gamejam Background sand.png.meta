@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gamejam Background sand_0: 72237631234618876
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
