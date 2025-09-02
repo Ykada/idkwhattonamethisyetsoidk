@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 395567d752a7b9f4397fe6ae69cb3c22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5590650411627420443
+    second: Gamejam Bakckground shells_0
+  - first:
+      213: -8355043676340380994
+    second: Gamejam Bakckground shells_1
+  - first:
+      213: -8524158446347226973
+    second: Gamejam Bakckground shells_2
+  - first:
+      213: -2030004867957877913
+    second: Gamejam Bakckground shells_3
+  - first:
+      213: -3468924023819572704
+    second: Gamejam Bakckground shells_4
+  - first:
+      213: 6108934393033956231
+    second: Gamejam Bakckground shells_5
+  - first:
+      213: 2327809033629462896
+    second: Gamejam Bakckground shells_6
+  - first:
+      213: -8644892180685596512
+    second: Gamejam Bakckground shells_7
+  - first:
+      213: 2460840529725324313
+    second: Gamejam Bakckground shells_8
+  - first:
+      213: 2995594784371534170
+    second: Gamejam Bakckground shells_9
+  - first:
+      213: -2010379201824938012
+    second: Gamejam Bakckground shells_10
+  - first:
+      213: -999792429560906531
+    second: Gamejam Bakckground shells_11
+  - first:
+      213: -7696261336565642648
+    second: Gamejam Bakckground shells_12
+  - first:
+      213: 4676074111741961145
+    second: Gamejam Bakckground shells_13
+  - first:
+      213: 417727890084520238
+    second: Gamejam Bakckground shells_14
+  - first:
+      213: -4127436817694856089
+    second: Gamejam Bakckground shells_15
+  - first:
+      213: -7405744159584560568
+    second: Gamejam Bakckground shells_16
+  - first:
+      213: -7987693384242596418
+    second: Gamejam Bakckground shells_17
+  - first:
+      213: -7753590297435086418
+    second: Gamejam Bakckground shells_18
+  - first:
+      213: -7669485333185314470
+    second: Gamejam Bakckground shells_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1924
+        width: 160
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b9178cdeaf59d40800000000000000
+      internalID: 5590650411627420443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_1
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1972
+        width: 129
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba9bd41b0cec0c80800000000000000
+      internalID: -8355043676340380994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_2
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 1957
+        width: 166
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0f3545e0b14b980800000000000000
+      internalID: -8524158446347226973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_3
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1783
+        width: 141
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7639e09f359f3d3e0800000000000000
+      internalID: -2030004867957877913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1574
+        width: 142
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a6a6fbaf7ebdfc0800000000000000
+      internalID: -3468924023819572704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_5
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1525
+        width: 147
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b94f4c67b47c450800000000000000
+      internalID: 6108934393033956231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1238
+        width: 107
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071fd6a9bf90e4020800000000000000
+      internalID: 2327809033629462896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_7
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1257
+        width: 117
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8dea04d5c270880800000000000000
+      internalID: -8644892180685596512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_8
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1285
+        width: 115
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c79277c69a62220800000000000000
+      internalID: 2460840529725324313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_9
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1357
+        width: 115
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a596a75c59d729920800000000000000
+      internalID: 2995594784371534170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_10
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1012
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7246374c2b914e0800000000000000
+      internalID: -2010379201824938012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 850
+        width: 132
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcb5ea15160022f0800000000000000
+      internalID: -999792429560906531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_12
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 836
+        width: 154
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a8e674713613590800000000000000
+      internalID: -7696261336565642648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_13
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 640
+        width: 159
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3a7c531a0c4e040800000000000000
+      internalID: 4676074111741961145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 500
+        width: 126
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21e2458d411cc500800000000000000
+      internalID: 417727890084520238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_15
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 386
+        width: 113
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ced68151668b6c0800000000000000
+      internalID: -4127436817694856089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_16
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 463
+        width: 125
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ad9869ce2893990800000000000000
+      internalID: -7405744159584560568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_17
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 203
+        width: 142
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb57b790033062190800000000000000
+      internalID: -7987693384242596418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_18
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 84
+        width: 110
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1677b64b6b56490800000000000000
+      internalID: -7753590297435086418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamejam Bakckground shells_19
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 56
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51cb6169b3809590800000000000000
+      internalID: -7669485333185314470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gamejam Bakckground shells_0: 5590650411627420443
+      Gamejam Bakckground shells_1: -8355043676340380994
+      Gamejam Bakckground shells_10: -2010379201824938012
+      Gamejam Bakckground shells_11: -999792429560906531
+      Gamejam Bakckground shells_12: -7696261336565642648
+      Gamejam Bakckground shells_13: 4676074111741961145
+      Gamejam Bakckground shells_14: 417727890084520238
+      Gamejam Bakckground shells_15: -4127436817694856089
+      Gamejam Bakckground shells_16: -7405744159584560568
+      Gamejam Bakckground shells_17: -7987693384242596418
+      Gamejam Bakckground shells_18: -7753590297435086418
+      Gamejam Bakckground shells_19: -7669485333185314470
+      Gamejam Bakckground shells_2: -8524158446347226973
+      Gamejam Bakckground shells_3: -2030004867957877913
+      Gamejam Bakckground shells_4: -3468924023819572704
+      Gamejam Bakckground shells_5: 6108934393033956231
+      Gamejam Bakckground shells_6: 2327809033629462896
+      Gamejam Bakckground shells_7: -8644892180685596512
+      Gamejam Bakckground shells_8: 2460840529725324313
+      Gamejam Bakckground shells_9: 2995594784371534170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
